@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ImageStream
+metadata:
+  labels:
+    role: jenkins-slave
+  name: go
+spec:
+  tags:
+  - from:
+      kind: DockerImage
+      name: docker.io/outtherelabs/jenkins-slave-go:v1.12.7
+    name: 1.12.7

@@ -3,7 +3,7 @@ kind: ImageStream
 metadata:
   labels:
     role: jenkins-slave
-  name: go
+  name: golang
 spec:
   tags:
   - from:

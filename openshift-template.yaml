@@ -8,5 +8,5 @@ spec:
   tags:
   - from:
       kind: DockerImage
-      name: docker.io/outtherelabs/jenkins-slave-go:v1.12.7
+      name: docker.io/bejens/jenkins-slave-go:v1.12.7
     name: 1.12.7

@@ -9,4 +9,4 @@ spec:
   - from:
       kind: DockerImage
       name: docker.io/bejens/jenkins-slave-go:release-1.12.7
-    name: 1.12.7
+    name: latest

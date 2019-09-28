@@ -3,10 +3,10 @@ kind: ImageStream
 metadata:
   labels:
     role: jenkins-slave
-  name: golang
+  name: nodejs 
 spec:
   tags:
   - from:
       kind: DockerImage
-      name: docker.io/bejens/jenkins-slave-go:release-1.13
+      name: docker.io/bejens/jenkins-slave-nodejs:8.16.1
     name: latest
